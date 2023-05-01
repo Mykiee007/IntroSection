@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
-
 .container {
     display:flex;
     justify-content: center;
@@ -24,7 +23,6 @@ img {
     height: 100%;   
 }
 
-
 .box  {
     border-radius: 10px;
     overflow: hidden;
@@ -35,14 +33,14 @@ img {
     height: auto;
     width: 95%;
     padding-top: 0px;
-    container-type: inline-size;  
+    container-type: inline-size;  /* Auto resize of text based on fixed container*/
 }
 
 
 .text {
     height: auto;
     width: 85%;
-    container-type: inline-size;  
+    container-type: inline-size; /* Auto resize of text based on fixed container*/
 }
 
 p, h2 {
@@ -53,12 +51,12 @@ p, h2 {
 h2 {
     color: hsl(218, 44%, 22%);
     font-weight: 700;
-    font-size: 8cqi;
+    font-size: 8cqi; /* Auto resize of text based on fixed container*/
 }
 
 p{
     color:hsl(220, 15%, 55%); 
     font-weight: 400;
-    font-size: 6cqi;
+    font-size: 6cqi; /* Auto resize of text based on fixed container*/
 }
 
